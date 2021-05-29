@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>419</width>
+    <height>317</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(46, 46, 68);</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1218</width>
+         <height>1218</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QFrame" name="frame">
+          <property name="minimumSize">
+           <size>
+            <width>1200</width>
+            <height>1200</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(48, 48, 72);</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QLineEdit" name="id_txt">
+           <property name="geometry">
+            <rect>
+             <x>289</x>
+             <y>295</y>
+             <width>161</width>
+             <height>31</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="password_txt2">
+           <property name="geometry">
+            <rect>
+             <x>265</x>
+             <y>620</y>
+             <width>171</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="first_name_txt">
+           <property name="geometry">
+            <rect>
+             <x>289</x>
+             <y>15</y>
+             <width>141</width>
+             <height>31</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QLabel" name="password_label2">
+           <property name="geometry">
+            <rect>
+             <x>26</x>
+             <y>621</y>
+             <width>201</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Re-type password</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="fname">
+           <property name="geometry">
+            <rect>
+             <x>15</x>
+             <y>15</y>
+             <width>191</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>First name</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="birthdate">
+           <property name="geometry">
+            <rect>
+             <x>15</x>
+             <y>124</y>
+             <width>181</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>date of birth</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="email_txt">
+           <property name="geometry">
+            <rect>
+             <x>288</x>
+             <y>184</y>
+             <width>261</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>11</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Email adress</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="password_label">
+           <property name="geometry">
+            <rect>
+             <x>26</x>
+             <y>571</y>
+             <width>201</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>password</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="password_txt">
+           <property name="geometry">
+            <rect>
+             <x>265</x>
+             <y>569</y>
+             <width>171</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="phone_number_txt">
+           <property name="geometry">
+            <rect>
+             <x>289</x>
+             <y>235</y>
+             <width>161</width>
+             <height>31</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QLabel" name="id_label">
+           <property name="geometry">
+            <rect>
+             <x>15</x>
+             <y>295</y>
+             <width>201</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>ID number</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="lname">
+           <property name="geometry">
+            <rect>
+             <x>15</x>
+             <y>64</y>
+             <width>211</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Last name</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="last_name_txt">
+           <property name="geometry">
+            <rect>
+             <x>289</x>
+             <y>69</y>
+             <width>141</width>
+             <height>31</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QLabel" name="Q1">
+           <property name="geometry">
+            <rect>
+             <x>24</x>
+             <y>776</y>
+             <width>121</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>11</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Q1</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="password_info">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>410</y>
+             <width>511</width>
+             <height>121</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 75 11pt &quot;MS Shell Dlg 2&quot;;
+border-color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; color:#5b0000;&quot;&gt;password must start with a capital letter, 18 maximum length&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; color:#5b0000;&quot;&gt;and also consist of a combination of letters [A-Z]/[a-z]&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; color:#5b0000;&quot;&gt;and numbers&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+          <widget class="QDateEdit" name="dateEdit">
+           <property name="geometry">
+            <rect>
+             <x>289</x>
+             <y>122</y>
+             <width>141</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>11</pointsize>
+            </font>
+           </property>
+          </widget>
+          <widget class="QLabel" name="security_qu_label">
+           <property name="geometry">
+            <rect>
+             <x>25</x>
+             <y>700</y>
+             <width>391</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+             <underline>true</underline>
+            </font>
+           </property>
+           <property name="text">
+            <string>security questions:</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="email_label">
+           <property name="geometry">
+            <rect>
+             <x>15</x>
+             <y>184</y>
+             <width>191</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>email address</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="phone_number_label">
+           <property name="geometry">
+            <rect>
+             <x>15</x>
+             <y>235</y>
+             <width>221</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>phone number</string>
+           </property>
+          </widget>
+          <widget class="QComboBox" name="comboBox">
+           <property name="geometry">
+            <rect>
+             <x>207</x>
+             <y>776</y>
+             <width>421</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <item>
+            <property name="text">
+             <string>What is your highschool fav' teacher name?</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>What is your childhood pet name?</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>What was your first gift ever?</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>What is your mother middle name?</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Where was you first trip?</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>What is your favorite color?</string>
+            </property>
+           </item>
+          </widget>
+          <widget class="QComboBox" name="comboBox_2">
+           <property name="geometry">
+            <rect>
+             <x>207</x>
+             <y>877</y>
+             <width>421</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <item>
+            <property name="text">
+             <string>What is your highschool fav' teacher name?</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>What is your childhood pet name?</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>What was your first gift ever?</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>What is your mother middle name?</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Where was you first trip?</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>What is your favorite color?</string>
+            </property>
+           </item>
+          </widget>
+          <widget class="QLabel" name="Q1_2">
+           <property name="geometry">
+            <rect>
+             <x>25</x>
+             <y>878</y>
+             <width>151</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>11</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Q2</string>
+           </property>
+          </widget>
+          <widget class="QComboBox" name="comboBox_3">
+           <property name="geometry">
+            <rect>
+             <x>207</x>
+             <y>999</y>
+             <width>421</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <item>
+            <property name="text">
+             <string>What is your highschool fav' teacher name?</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>What is your childhood pet name?</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>What was your first gift ever?</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>What is your mother middle name?</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Where was you first trip?</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>What is your favorite color?</string>
+            </property>
+           </item>
+          </widget>
+          <widget class="QLabel" name="Q1_3">
+           <property name="geometry">
+            <rect>
+             <x>26</x>
+             <y>999</y>
+             <width>131</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>11</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Q2</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label">
+           <property name="geometry">
+            <rect>
+             <x>24</x>
+             <y>828</y>
+             <width>141</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>11</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Answer1</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_2">
+           <property name="geometry">
+            <rect>
+             <x>26</x>
+             <y>936</y>
+             <width>141</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>11</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Answer2</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_3">
+           <property name="geometry">
+            <rect>
+             <x>26</x>
+             <y>1057</y>
+             <width>131</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>11</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Answer3</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit">
+           <property name="geometry">
+            <rect>
+             <x>207</x>
+             <y>828</y>
+             <width>421</width>
+             <height>31</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_2">
+           <property name="geometry">
+            <rect>
+             <x>207</x>
+             <y>938</y>
+             <width>421</width>
+             <height>31</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_3">
+           <property name="geometry">
+            <rect>
+             <x>206</x>
+             <y>1056</y>
+             <width>421</width>
+             <height>31</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton">
+           <property name="geometry">
+            <rect>
+             <x>380</x>
+             <y>1150</y>
+             <width>111</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(0, 157, 0);</string>
+           </property>
+           <property name="text">
+            <string>Submit</string>
+           </property>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>419</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
